@@ -1,0 +1,36 @@
+Procedure that I followed to set the environment for my windows 11 OS.
+1. install anaconda
+2. open anaconda navigator and create a new environment => python 3.10.11
+3. open terminal in anaconda navigator of the new environment
+4. launch command: 	conda install pytorch torchvision torchaudio cpuonly -c pytorch
+5. launch command:	conda install numpy scipy tqdm matplotlib networkx pytest pandoc
+6. launch command: 	pip install sphinx nbsphinx IPython
+7. launch command:	pip install git+https://github.com/flaport/photontorch
+
+8.setup visual studio code
+9. ctrl + shift + p => python select interpreter => select the environment created with anaconda
+10.ctrl + , => search	terminal.integrated.profiles.windows => edit environment => add the following lines
+---------------------------------------------------------------------------------------------------------------------------------
+
+	,
+        "PT": {//name to recognise the setting of terminal #point1
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": ["/K", "<path>/anaconda3/Scripts/activate.bat <path>/anaconda3 & conda activate pt"], // "<path>/anaconda3/Scripts/activate.bat <path>/anaconda3 & conda activate pt" => <path-to-conda-installation>\\Scripts\\activate.bat <path-to-conda-installation> & conda activate <name-of-environment>
+            "icon": "terminal-cmd"
+            
+        }	
+-----------------------------------------------------------------------------------------------------------
+11.ctrl + , => change the tab from user to workspace => search terminal.integrated.shellArgs => go to default windows and set it to "Command Prompt" 
+
+
+
+(name to recognise the setting of terminal, search #point1 in this doc)
+12.restar VSCode
+
+13. setup jupiter
+14. open photontorch-master->examples->00_introduction_to_photontorch => in the higher and righter corner click select Kernerl to choose the python environment and choose the same of VSCode privious selected for VSCode (with CTRL + MASC + P) 
+15. run 00_introduction_to_photontorch
+////////////////////// end installation//////////////////////////////////////

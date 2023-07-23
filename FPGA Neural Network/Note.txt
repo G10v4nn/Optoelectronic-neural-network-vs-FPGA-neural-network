@@ -1,0 +1,8 @@
+The process followed to create a working FPGA neural network is:
+1. Simulate the network on Python
+2. Extract the settings of the network
+3. Create the FPGA neural network on Vivado
+4. Setup the FPGA NN with the settings founded in the python simulation
+
+The software version used are Vivado 2021.2 and Torch (a python library)2.0.1.
+For info about utilization and more check the website of each software.
