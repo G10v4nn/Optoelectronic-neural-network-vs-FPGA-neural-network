@@ -1,0 +1,99 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.219745",
+   "Default View_TopLeft":"-856,-141",
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"/NN/Multiplier_Adder_Relu_0|/NN/Multiplier_Adder_Relu_1|/NN/Multiplier_Adder_Relu_2|/NN/Multiplier_Adder_Relu_3|/NN/Multiplier_Adder_Relu_4|/NN/Multiplier_Adder_Relu_5|/NN/Multiplier_Adder_Relu_6|/NN/Multiplier_Adder_Relu_7|/NN/control|/NN/S_axi_Demultiplexer1_0|/NN/S_axi_Demultiplexer1_1|/NN/S_axi_Demultiplexer1_2|/NN/S_axi_Demultiplexer1_3|/NN/src_0|/NN/src_1|/NN/src_2|/NN/axi_fifo_mm_s_0|/NN/src_3|/NN/axi_fifo_mm_s_1|/NN/axi_fifo_mm_s_2|/NN/axi_fifo_mm_s_3|",
+   "PinnedPorts":"S_AXI|M_AXIS_3|M_AXIS_2|M_AXIS_1|M_AXIS_0|S_AXI8|S_AXI7|S_AXI6|S_AXI5|S_AXI4|S_AXI3|S_AXI2|S_AXI1|S_AXIS_A_0_tvalid|aclk|s_axi_aresetn|",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port S_AXI -pg 1 -lvl 6 -x 1980 -y -90 -defaultsOSRD -right
+preplace port M_AXIS_0 -pg 1 -lvl 6 -x 1980 -y -120 -defaultsOSRD
+preplace port S_AXI1 -pg 1 -lvl 6 -x 1980 -y 240 -defaultsOSRD -right
+preplace port M_AXIS_1 -pg 1 -lvl 6 -x 1980 -y 210 -defaultsOSRD
+preplace port S_AXI2 -pg 1 -lvl 6 -x 1980 -y 550 -defaultsOSRD -right
+preplace port M_AXIS_2 -pg 1 -lvl 6 -x 1980 -y 520 -defaultsOSRD
+preplace port S_AXI3 -pg 1 -lvl 6 -x 1980 -y 950 -defaultsOSRD -right
+preplace port M_AXIS_3 -pg 1 -lvl 6 -x 1980 -y 980 -defaultsOSRD
+preplace port S_AXI4 -pg 1 -lvl 0 -x -50 -y 1330 -defaultsOSRD
+preplace port S_AXI5 -pg 1 -lvl 0 -x -50 -y 170 -defaultsOSRD
+preplace port S_AXI6 -pg 1 -lvl 0 -x -50 -y 430 -defaultsOSRD
+preplace port S_AXI7 -pg 1 -lvl 0 -x -50 -y 740 -defaultsOSRD
+preplace port S_AXI8 -pg 1 -lvl 0 -x -50 -y 1060 -defaultsOSRD
+preplace port port-id_aclk -pg 1 -lvl 0 -x -50 -y 1370 -defaultsOSRD
+preplace port port-id_s_axi_aresetn -pg 1 -lvl 0 -x -50 -y 210 -defaultsOSRD
+preplace port port-id_S_AXIS_A_0_tvalid -pg 1 -lvl 6 -x 1980 -y 1360 -defaultsOSRD
+preplace port port-id_M_AXIS_0_tdata -pg 1 -lvl 6 -x 1980 -y 90 -defaultsOSRD
+preplace port port-id_M_AXIS_0_tdata1 -pg 1 -lvl 6 -x 1980 -y 420 -defaultsOSRD
+preplace port port-id_M_AXIS_0_tdata2 -pg 1 -lvl 6 -x 1980 -y 750 -defaultsOSRD
+preplace port port-id_M_AXIS_0_tdata3 -pg 1 -lvl 6 -x 1980 -y 1080 -defaultsOSRD
+preplace inst axi_fifo_mm_s_0 -pg 1 -lvl 5 -x 1740 -y 0 -defaultsOSRD
+preplace inst axi_fifo_mm_s_1 -pg 1 -lvl 5 -x 1740 -y 330 -defaultsOSRD
+preplace inst axi_fifo_mm_s_2 -pg 1 -lvl 5 -x 1740 -y 640 -defaultsOSRD
+preplace inst axi_fifo_mm_s_3 -pg 1 -lvl 5 -x 1740 -y 990 -defaultsOSRD
+preplace inst control -pg 1 -lvl 2 -x 530 -y 1350 -defaultsOSRD
+preplace inst S_axi_Demultiplexer1_0 -pg 1 -lvl 3 -x 880 -y 70 -defaultsOSRD
+preplace inst S_axi_Demultiplexer1_1 -pg 1 -lvl 3 -x 880 -y 400 -defaultsOSRD
+preplace inst S_axi_Demultiplexer1_2 -pg 1 -lvl 3 -x 880 -y 730 -defaultsOSRD
+preplace inst S_axi_Demultiplexer1_3 -pg 1 -lvl 3 -x 880 -y 1060 -defaultsOSRD
+preplace inst src_0 -pg 1 -lvl 1 -x 150 -y 190 -defaultsOSRD
+preplace inst src_1 -pg 1 -lvl 1 -x 150 -y 450 -defaultsOSRD
+preplace inst src_2 -pg 1 -lvl 1 -x 150 -y 760 -defaultsOSRD
+preplace inst src_3 -pg 1 -lvl 1 -x 150 -y 1080 -defaultsOSRD
+preplace inst Multiplier_Adder_Relu_0 -pg 1 -lvl 2 -x 530 -y 70 -defaultsOSRD
+preplace inst Multiplier_Adder_Relu_1 -pg 1 -lvl 2 -x 530 -y 400 -defaultsOSRD
+preplace inst Multiplier_Adder_Relu_2 -pg 1 -lvl 2 -x 530 -y 730 -defaultsOSRD
+preplace inst Multiplier_Adder_Relu_3 -pg 1 -lvl 2 -x 530 -y 1060 -defaultsOSRD
+preplace inst Multiplier_Adder_Relu_4 -pg 1 -lvl 4 -x 1320 -y 80 -defaultsOSRD
+preplace inst Multiplier_Adder_Relu_5 -pg 1 -lvl 4 -x 1320 -y 410 -defaultsOSRD
+preplace inst Multiplier_Adder_Relu_6 -pg 1 -lvl 4 -x 1320 -y 740 -defaultsOSRD
+preplace inst Multiplier_Adder_Relu_7 -pg 1 -lvl 4 -x 1320 -y 1070 -defaultsOSRD
+preplace netloc axi_gpio_0_gpio_io_o 1 1 1 290 -30n
+preplace netloc input_1_gpio_io_o 1 1 1 300 30n
+preplace netloc S_AXIS_A_2_tdata_1 1 1 1 310 90n
+preplace netloc S_AXIS_A_3_tdata_1 1 1 1 320 150n
+preplace netloc microblaze_0_Clk 1 0 5 -20 270 330 1240 670J 960 1100 170 1490
+preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 0 5 -30 1000 290J 1230 680J 970 NJ 970 1500
+preplace netloc control_gpio_io_o 1 1 5 340 1270 680J 1360 NJ 1360 NJ 1360 N
+preplace netloc Multiplier_Adder_Relu_4_M_AXIS_0_tdata 1 4 2 NJ 90 NJ
+preplace netloc Multiplier_Adder_Relu_5_M_AXIS_0_tdata 1 4 2 NJ 420 NJ
+preplace netloc Multiplier_Adder_Relu_6_M_AXIS_0_tdata 1 4 2 NJ 750 NJ
+preplace netloc Multiplier_Adder_Relu_7_M_AXIS_0_tdata 1 4 2 NJ 1080 NJ
+preplace netloc Multiplier_Adder_Relu_0_M_AXIS_0 1 2 1 N 70
+preplace netloc S_axi_Demultiplexer1_0_s_axis_out0 1 3 1 N 40
+preplace netloc S_axi_Demultiplexer1_0_s_axis_out1 1 3 1 1030 60n
+preplace netloc S_axi_Demultiplexer1_0_s_axis_out2 1 3 1 1020 80n
+preplace netloc S_axi_Demultiplexer1_0_s_axis_out3 1 3 1 1010 100n
+preplace netloc Multiplier_Adder_Relu_1_M_AXIS_0 1 2 1 N 400
+preplace netloc S_axi_Demultiplexer1_1_s_axis_out0 1 3 1 1040 60n
+preplace netloc S_axi_Demultiplexer1_1_s_axis_out1 1 3 1 N 390
+preplace netloc S_axi_Demultiplexer1_1_s_axis_out2 1 3 1 1080 410n
+preplace netloc S_axi_Demultiplexer1_1_s_axis_out3 1 3 1 1060 430n
+preplace netloc Multiplier_Adder_Relu_2_M_AXIS_0 1 2 1 N 730
+preplace netloc S_axi_Demultiplexer1_2_s_axis_out0 1 3 1 1050 80n
+preplace netloc S_axi_Demultiplexer1_2_s_axis_out1 1 3 1 1090 410n
+preplace netloc S_axi_Demultiplexer1_2_s_axis_out2 1 3 1 N 740
+preplace netloc S_axi_Demultiplexer1_2_s_axis_out3 1 3 1 1020 760n
+preplace netloc Multiplier_Adder_Relu_3_M_AXIS_0 1 2 1 N 1060
+preplace netloc S_axi_Demultiplexer1_3_s_axis_out0 1 3 1 1070 100n
+preplace netloc S_axi_Demultiplexer1_3_s_axis_out1 1 3 1 1110 430n
+preplace netloc S_axi_Demultiplexer1_3_s_axis_out2 1 3 1 1120 760n
+preplace netloc S_axi_Demultiplexer1_3_s_axis_out3 1 3 1 N 1090
+preplace netloc microblaze_0_axi_periph_M06_AXI 1 4 2 1490J -90 N
+preplace netloc Multiplier_Adder_Relu_4_M_AXIS_0 1 4 2 1480 -120 NJ
+preplace netloc microblaze_0_axi_periph_M07_AXI 1 4 2 1520J 240 N
+preplace netloc Multiplier_Adder_Relu_5_M_AXIS_0 1 4 2 1480 210 NJ
+preplace netloc microblaze_0_axi_periph_M08_AXI 1 4 2 1520J 550 N
+preplace netloc Multiplier_Adder_Relu_6_M_AXIS_0 1 4 2 1510 520 NJ
+preplace netloc microblaze_0_axi_periph_M09_AXI 1 4 2 1520J 890 1910
+preplace netloc Multiplier_Adder_Relu_7_M_AXIS_0 1 4 2 1510 900 1900J
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 0 2 NJ 1330 NJ
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 0 1 NJ 170
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 0 1 NJ 430
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 0 1 NJ 740
+preplace netloc microblaze_0_axi_periph_M05_AXI 1 0 1 NJ 1060
+levelinfo -pg 1 -50 150 530 880 1320 1740 1980
+pagesize -pg 1 -db -bbox -sgen -180 -140 2150 1880
+"
+}
+

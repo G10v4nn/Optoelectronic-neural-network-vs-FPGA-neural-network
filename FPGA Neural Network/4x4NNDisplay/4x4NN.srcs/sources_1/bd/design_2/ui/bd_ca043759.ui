@@ -1,0 +1,44 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.15238",
+   "Default View_TopLeft":"-380,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port S_AXI -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port S_AXI1 -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace port S_AXI2 -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace port S_AXI3 -pg 1 -lvl 0 -x 0 -y 510 -defaultsOSRD
+preplace port port-id_s_axi_aclk -pg 1 -lvl 0 -x 0 -y 370 -defaultsOSRD
+preplace port port-id_s_axi_aresetn -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace portBus gpio_io_o -pg 1 -lvl 3 -x 580 -y 110 -defaultsOSRD
+preplace portBus gpio_io_o1 -pg 1 -lvl 3 -x 580 -y 250 -defaultsOSRD
+preplace portBus gpio_io_o2 -pg 1 -lvl 3 -x 580 -y 390 -defaultsOSRD
+preplace portBus gpio_io_o3 -pg 1 -lvl 3 -x 580 -y 560 -defaultsOSRD
+preplace inst weight1 -pg 1 -lvl 2 -x 420 -y 100 -defaultsOSRD
+preplace inst weight2 -pg 1 -lvl 2 -x 420 -y 240 -defaultsOSRD
+preplace inst weight3 -pg 1 -lvl 2 -x 420 -y 380 -defaultsOSRD
+preplace inst weight4 -pg 1 -lvl 2 -x 420 -y 550 -defaultsOSRD
+preplace inst axi_register_slice_0 -pg 1 -lvl 1 -x 150 -y 80 -defaultsOSRD
+preplace inst axi_register_slice_1 -pg 1 -lvl 1 -x 150 -y 220 -defaultsOSRD
+preplace inst axi_register_slice_2 -pg 1 -lvl 1 -x 150 -y 360 -defaultsOSRD
+preplace inst axi_register_slice_3 -pg 1 -lvl 1 -x 150 -y 530 -defaultsOSRD
+preplace netloc axi_gpio_1_gpio_io_o 1 2 1 NJ 110
+preplace netloc axi_gpio_3_gpio_io_o 1 2 1 NJ 250
+preplace netloc axi_gpio_3_gpio_io_o1 1 2 1 NJ 560
+preplace netloc axi_gpio_5_gpio_io_o 1 2 1 NJ 390
+preplace netloc s_axi_aclk_1 1 0 2 20 440 270
+preplace netloc s_axi_aresetn_1 1 0 2 30 450 280
+preplace netloc S_AXI_1 1 0 1 NJ 60
+preplace netloc axi_register_slice_0_M_AXI 1 1 1 N 80
+preplace netloc S_AXI1_1 1 0 1 NJ 200
+preplace netloc axi_register_slice_1_M_AXI 1 1 1 N 220
+preplace netloc S_AXI2_1 1 0 1 NJ 340
+preplace netloc axi_register_slice_2_M_AXI 1 1 1 N 360
+preplace netloc S_AXI3_1 1 0 1 NJ 510
+preplace netloc axi_register_slice_3_M_AXI 1 1 1 N 530
+levelinfo -pg 1 0 150 420 580
+pagesize -pg 1 -db -bbox -sgen -130 0 740 630
+"
+}
+

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Jun 21 14:56:13 2023
+# Process ID: 25336
+# Current directory: C:/Users/giova/Documents/Home/UNI/TESI/1_photontorch/2_fpga/test1/4x4NN/4x4NN.runs/design_2_axis_register_slice_0_2_synth_1
+# Command line: vivado.exe -log design_2_axis_register_slice_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_2_axis_register_slice_0_2.tcl
+# Log file: C:/Users/giova/Documents/Home/UNI/TESI/1_photontorch/2_fpga/test1/4x4NN/4x4NN.runs/design_2_axis_register_slice_0_2_synth_1/design_2_axis_register_slice_0_2.vds
+# Journal file: C:/Users/giova/Documents/Home/UNI/TESI/1_photontorch/2_fpga/test1/4x4NN/4x4NN.runs/design_2_axis_register_slice_0_2_synth_1\vivado.jou
+# Running On: GS, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 4, Host memory: 16917 MB
+#-----------------------------------------------------------
+source design_2_axis_register_slice_0_2.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1566.523 ; gain = 0.000
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_2_axis_register_slice_0_2, cache-ID = a075098d316cc410.
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 21 14:56:46 2023...
